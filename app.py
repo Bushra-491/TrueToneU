@@ -90,7 +90,7 @@ def predict():
 # Health Check
 @app.route('/', methods=['GET'])
 def index():
-    return "Flask API is running 🚀"
+    return "Flask API is running successfully 🚀"
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
